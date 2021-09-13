@@ -13,7 +13,13 @@
 		<title>Paula Ramirez</title>
 	</head>
 	<body>
-		<nav></nav>
+		<nav>
+			<ul>
+				<li>MIS XV</li>
+				<li>Celebración</li>
+				<li>Asistencia</li>
+			</ul>
+		</nav>
 		<header class="row center-xs">
 			<div class="col-xs-12">
 				<div class="title">
@@ -24,7 +30,22 @@
 					<h5>Paula Gabriela Ramirez Treviño</h5>
 				</div>
 				<div class="slider">
-					<div class="splide">
+					<!--Slider-->
+					<div
+						id="splide1"
+						class="splide"
+						data-splide='{"type":"loop",
+						"perPage":3,
+						"autoplay": true,
+						"interval": 3000,
+						"arrows": false,
+						"pauseOnHover": false,
+						"breakpoints":{
+							"600":{
+								"perPage":1
+							}}
+						}'
+					>
 						<div class="splide__track">
 							<ul class="splide__list">
 								<li class="splide__slide">
@@ -59,10 +80,12 @@
 						</div>
 					</div>
 				</div>
+				<!--Slider-->
 			</div>
 		</header>
 		<main class="row center-xs">
 			<div class="col-xs-12">
+				<!-- Aquí va todo el contenido -->
 				<div class="timer">
 					<h3>¡Coming son!</h3>
 					<div class="count">
@@ -109,7 +132,113 @@
 						</div>
 					</div>
 				</div>
-				<!-- Aquí va todo el contenido -->
+				<section>
+					<h2>Mis XV Años</h2>
+					<p>Hay momentos en la vida que son irrepetibles...</p>
+					<p>pero compartirlos con las personas que mas quieres,</p>
+					<p>estos se vuelven inolvidables...</p>
+					<hr />
+				</section>
+				<section>
+					<h2>Mis Padres</h2>
+					<h5>ALEX JOSUE RAMIREZ COTERO</h5>
+					<h5>SONIA GABRIELA TREVIÑO CARDENAS</h5>
+				</section>
+				<div class="slider">
+					<!--Slider-->
+					<div
+						id="splide2"
+						class="splide"
+						data-splide='{"type":"loop","perPage":2,"breakpoints":{"600":{"perPage":1}}}'
+					>
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<img
+										class="slide-img"
+										src="./resources/img/test.jpg"
+										alt=""
+									/>
+								</li>
+								<li class="splide__slide">
+									<img
+										class="slide-img"
+										src="./resources/img/test.jpg"
+										alt=""
+									/>
+								</li>
+								<li class="splide__slide">
+									<img
+										class="slide-img"
+										src="./resources/img/test.jpg"
+										alt=""
+									/>
+								</li>
+								<li class="splide__slide">
+									<img
+										class="slide-img"
+										src="./resources/img/test.jpg"
+										alt=""
+									/>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--Slider-->
+
+				<section class="celebracion">
+					<div class="row center-xs">
+						<div class="col-xs-6 border-right">
+							<h4>Cuando</h4>
+							<p>Te esperamos el viernes 22 de Octubre</p>
+						</div>
+						<div class="col-xs-6">
+							<h4>Donde</h4>
+							<p>
+								Ceremonia Religiosa en la parroquia "Santa Maria Goretti" a las
+								6pm
+							</p>
+						</div>
+					</div>
+					<div class="dot-celebration"></div>
+				</section>
+
+				<section>
+					<p>Recepción en la Reserva Educare a partir de las 8:00 pm</p>
+					<p>Calle Francisco I. Madero #5850</p>
+					<div class="triangle">
+						<img src="./resources/img/test.jpg" class="triangle-img" alt="" />
+					</div>
+				</section>
+
+				<section class="location">
+					<hr class="hr-location" />
+					<h3>Ubicación</h3>
+					<hr class="hr-location" />
+				</section>
+				<section class="location">
+					<img src="./resources/img/test.jpg" class="circle-img" alt="" />
+					<p>Parroquia Santa María Goretti</p>
+				</section>
+				<section class="location">
+					<p>Reserva Educare</p>
+					<img src="./resources/img/test.jpg" class="circle-img" alt="" />
+				</section>
+
+				<hr />
+
+				<footer>
+					<div class="confirm">
+						<h5>
+							Confirma tu asistencia registrandote en el siguiente apartado:
+						</h5>
+						<h4>XV Paula Gabriela</h4>
+						<p>22 de Octubre 2021</p>
+					</div>
+					<button>Register now</button>
+					<h4>Vestimenta Formal</h4>
+				</footer>
 			</div>
 		</main>
 		<script src="./resources/js/splide.min.js"></script>
