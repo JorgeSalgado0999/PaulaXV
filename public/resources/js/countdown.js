@@ -12,10 +12,10 @@ var second1 = document.getElementById("number-second1");
 var second2 = document.getElementById("number-second2");
 
 var today = new Date();
-var future = new Date(2021, 10, 22, 19, 30, 0);
+var future = new Date(2021, 9, 22, 18, 0, 0);
 
 function calcDate(date1, date2) {
-	date2.setMonth(date2.getMonth() + 1);
+	date2.setMonth(date2.getMonth());
 	var miliseconds = Math.floor(date1.getTime() - date2.getTime());
 	var secs = miliseconds / 1000;
 

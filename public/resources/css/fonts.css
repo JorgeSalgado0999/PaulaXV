@@ -1,0 +1,24 @@
+@font-face {
+	font-family: ayalisse;
+	src: url(./../typography/Ayalisse.ttf);
+}
+@font-face {
+	font-family: msyi;
+	src: url(./../typography/msyi.ttf);
+}
+@font-face {
+	font-family: sfmono;
+	src: url(./../typography/SFMono.ttf);
+}
+@font-face {
+	font-family: cacilds;
+	src: url(./../typography/Cacilds.ttf);
+}
+@font-face {
+	font-family: lisa;
+	src: url(./../typography/Lisa.otf);
+}
+@font-face {
+	font-family: quarts;
+	src: url(./../typography/Quarts.otf);
+}

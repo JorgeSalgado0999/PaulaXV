@@ -1,0 +1,40 @@
+@font-face {
+	font-family: sfmono;
+	src: url(./SFMono.ttf);
+}
+
+/* Font styles */
+h1 {
+	font-size: 5rem;
+	font-family: sfmono, sans-serif;
+	margin: 0;
+}
+tr {
+	font-size: 3rem;
+	margin: 0;
+	font-family: sfmono;
+}
+td {
+	font-size: 2rem;
+	margin: 0;
+	font-family: sfmono;
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 4rem;
+	}
+	tr {
+		font-size: 2.5rem;
+	}
+	td {
+		font-size: 1.5rem;
+	}
+}
+
+table {
+	margin: 3rem auto;
+}
+tr:nth-child(odd) {
+	background-color: #eee;
+}
